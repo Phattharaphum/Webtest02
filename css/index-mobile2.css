@@ -1,19 +1,12 @@
-/*@media screen and (min-width: 1200px)
-{
-html {zoom: 80%;}
 body {
-	background-image:url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01.jpg);
 	width: 100%;
 	height: 100%;
 	margin-top: 0;
-	background-size:cover;
-	background-attachment:fixed;
+	background-color: #0E0E0E;
 }
 .sbody {
     margin: auto;
-	max-width:1500px;
 	height: 100%;
-	box-shadow: 0px 0px 15px 5px #0E0E0E;
 }
 div.mainbd {
 	display: inline-flex;
@@ -30,10 +23,9 @@ div.W1 {
 	display: inline-flex;
 	flex-direction: column;
 	width: 100%;
-	background-image: url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01blur.jpg);
+	background-image: url("imgvdo/bg02blur.jpg");
 	background-attachment:fixed;
-	background-size: cover;
-	
+	background-size:contain;	
 }
 div.mhead {
     background-color: #242424;
@@ -41,27 +33,31 @@ div.mhead {
     padding: 15px;
     border-radius: 0 0 2em 2em;
     margin: 0 0 2em 2em;
-	transform: scale(1);
+	transform: scale(1.6);
 	position: relative;
-	margin-left: 2em;
-	margin-top: 0em;
+	margin-left: 5em;
+	margin-top: 5em;			
 }
 div.nev1 {
+	display: flex;
+	flex-direction: column;
     color:white ;
     align-self: baseline;
-    margin-left: 20em;
-    margin-top: 4em;
+    margin-left: 30em;
+    margin-top: 2em;
 }
 a.nev2 {
     font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 4em;
+    margin-right: 0.3em;
     font-weight: bold;
-    font-size: 20pt;
-	background-color: #4E4E4F;
+    font-size: 35pt;
+	background-color: #262626;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
+	margin-top: 1em;
+	text-align: center;
 }
 div.s1head {
     display:inline-flex;
@@ -122,30 +118,31 @@ div.mn {
 p.mnn {
 	color: white;
 	font-family: Bebas Neue;
-	font-size: 180pt;
+	font-size: 240pt;
 	margin: 0;
-	margin-left: 100px
+	margin-left: 70px
 }
 p.mnn2 {
 	color: white;
 	font-family: Bebas Neue;
-	font-size: 60pt;
+	font-size: 70pt;
 	margin: 0;
-	margin-left: 100px
+	margin-left: 80px
 }
 p.mnn3 {
 	color: white;
 	font-family: Bebas Neue;
 	font-size: 60pt;
 	margin-top: 0;
-	margin-left: 100px
+	margin-left: 80px
 }
 .img1 {
 	height: 600px;
 	position:sticky;
-	margin-left: 25em;
-	border-radius: 50px;
-	box-shadow: 8px 8px 5px 0px #252422;
+	margin-left: 3em;
+	margin-top: 60px;
+	border-radius: 40px;
+	box-shadow: 8px 8px 40px 0px #252422;
 }
 h2 {
 	font-family: Kanit;
@@ -169,14 +166,14 @@ h2.h2s {
 	margin: auto;
 	border-radius: 25px;
 	color:#252422;
-	margin-left: 1.5em;
+	margin-left: 1em;
 }
 strong{
 	font-weight: 700;
 	background-color: #CDD1D0;
 	color:#252422;
 	font-family: Kanit;
-	font-size: 20pt;
+	font-size: 40pt;
 	border-radius: 10px;
 	padding: 0px 5px 0px 5px;
 	
@@ -184,176 +181,56 @@ strong{
 div.mnf1{
 	padding-top: 2em;
 	padding-bottom: 2em;
-	background-color: #111111;
+	background-color: #191919;
+	width: 1200px;
 }
 div.mnf2{
-	margin-top: 5em;
+	margin-top: 2em;
 	display: inline-flex;
 	flex-direction: row;
 }
 div.mnf3{
 	margin-top: 5em;
-	background-color: #111111;
-}
-div.mnf4{
-	margin-top: 5em
-}
-div.mn2f4{
-	margin-top: 5em;
-	display: flex;
-	flex-direction: row;
-	
-	
+	background-color: #191919;
 }
 div.maininfo1 {
 	display: inline-flex;
-	font-size: 20pt;
+	font-size: 40pt;
 	font-family: Kanit;
-	line-height: 20pt;
-	background-color : #252422; 
-	margin-left: 80px;
+	line-height: 30pt;
+	margin-left: 1em;
 	padding: 10px 20px 5px 20px;
-	border-radius: 40px;
 	color: white;
-	width: 450px;
-	transition:all 400ms ease-in-out ;
+	width: 800px;
 } 
-div.maininfo1:hover {
-	transform: scale(1.3, 1.3);
-}
 p {
 	margin: 1em;
 }
 div.t1{
 	width: 700px;
-	display: inline;
+	display: none;
 }
 div.maininfo2 {
 	display: inline-flex;
-	font-size: 20pt;
+	font-size: 30pt;
 	font-family: Kanit;
-	line-height: 20pt;
-	background-color: #252422;
+	line-height: 30pt;
 	padding: 10px 20px 5px 20px;
 	border-radius: 40px;
 	color: white;
-	width: 450px;
-	margin-left: 4px;
-	width: 730px;
-	height: 1020px
-}
-.mfpic1 {
-	width: 230px;
-	margin: auto;
-	position:relative;
-	top:-20px;
-	left: 20px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 10px;
-}
-.mfpic1:hover {
-	transform: scale(1.3, 1.3);
-}
-.mfpic2 {
-	width: 360px;
-	margin: auto;
-	position:relative;
-	top:00px;
-	left: 75px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 5px;
-}
-.mfpic2:hover {
-	transform: scale(1.3, 1.3);
-}
-.mfpic3 {
-	width: 230px;
-	margin: auto;
-	position:relative;
-	top:90px;
-	left: 50px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 0px;
-}
-.mfpic3:hover {
-	transform: scale(1.2, 1.2);
-}
-.mfpic4 {
-	width: 500px;
-	margin: auto;
-	position:relative;
-	top:50px;
-	left: 150px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 10px 10px 2px 0px #233543;
-	border-radius: 20px;
-}
-.mfpic5 {
-	width: 300px;
-	margin: auto;
-	position:relative;
-	top:190px;
-	left: 120px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 20px;
-}
-.mfpic5:hover {
-	transform: scale(1.2, 1.2);
-}
-.mfpic6 {
-	width: 300px;
-	margin: auto;
-	position:relative;
-	top:290px;
-	left: 100px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 20px;
-}
-.mfpic6:hover {
-	transform: scale(1.2, 1.2);
-}
-.mfpic7 {
-	width: 600px;
-	margin: auto;
-	position:relative;
-	top:100px;
-	left: 600px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 40px;
-}
-.mfpic7:hover {
-	transform: scale(1.2, 1.2);
-	box-shadow: 15px 15px 0px 0px #0E0E0E;
-}
-.mfpic8 {
-	width: 300px;
-	margin: auto;
-	position:relative;
-	top:-60px;
-	left: 160px;
-	transition:transform 400ms ease-in-out;
-	box-shadow: 7px 7px 2px 0px #0E0E0E;
-	border-radius: 40px;
-}
-.mfpic8:hover {
-	transform: scale(1.2, 1.2);
+	margin-left: 0.2em;
+	width: 1150px;
+	height: 1400px
 }
 p.bb1 {
 	font-weight: 500;
-	background-color: #363636;
 	font-family: Kanit;
-	font-size: 20pt;
-	border-radius: 10px;
+	font-size: 30pt;
+	border-radius: 5px;
 	padding: 15px 10px 15px 10px;
 	color: white;
 	margin-left: 2em;
-	width: 650px;
+	width: 1000px;
 	
 	
 }
@@ -361,7 +238,7 @@ span.bb2 {
 	font-weight: 700;
 	background-color: white;
 	font-family: Kanit;
-	font-size: 20pt;
+	font-size: 30pt;
 	border-radius: 10px;
 	padding: 0px 10px 0px 10px;
 	color: #252422;	
@@ -371,28 +248,24 @@ div.maininfo3 {
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 20pt;
-	background-color: #252422;
 	padding: 20px 0px 5px 30px;
 	border-radius: 60px;
 	color: white;
 	width: 450px;
-	margin-left: 200px;
+	margin-left: 30px;
 	width: 700px;
 	transition:all 400ms ease-in-out ;
 } 
-div.maininfo3:hover {
-	transform: scale(1.2, 1.2);
-}
 p.bb4 {
 	font-weight: 500;
-	background-color: #464646;
+	background-color: #212121;
 	font-family: Kanit;
-	font-size: 20pt;
+	font-size: 40pt;
 	border-radius: 20px;
 	padding: 20px 10px 20px 10px;
 	color: white;
-	margin-left: 2em;
-	width: 500px;
+	margin-left: 1.2em;
+	width: 900px;
 	display: inline-flex;
 	
 }
@@ -400,7 +273,7 @@ span.bb5 {
 	font-weight: 700;
 	background-color: white;
 	font-family: Kanit;
-	font-size: 18pt;
+	font-size: 30pt;
 	border-radius: 20px;
 	padding: 20px 25px 20px 25px;
 	color: #121F2C;
@@ -409,18 +282,15 @@ span.bb5 {
 	
 }
 div.maininfo4 {
-	margin-top: 2em;
 	display: inline-flex;
 	flex-direction: column;
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 20pt;
-	background-color: #252422;
-	padding: 10px 20px 5px 20px;
 	border-radius: 60px;
 	color: white;
 	width: 450px;
-	margin-left: 33.33%;
+	margin-left: 1em;
 	width: 450px;
 	height: 800px;
 	justify-content: center;
@@ -430,18 +300,17 @@ div.maininfo5 {
 	flex-direction: row;
 	font-size: 20pt;
 	font-family: Kanit;
-	line-height: 2pt;
+	line-height: 1pt;
 	background-color: #0D0D0D;
 	border-radius: 0px;
 	color: white;
 	width: 100%;
-	height: 200px;
-	
+	height: 150px;	
 }
 .vid1 {
-	margin-top: 2em;
-	margin-left: 2em;
-	border-radius: 25px;
+	margin-top: -2em;
+	margin-left: 23em;
+	border-radius: 15px;
 	
 }
 .pic2 {
@@ -451,19 +320,13 @@ div.maininfo5 {
 	display: inline-flex;
 	flex-direction: row;
 	background-color: #111111;
-	margin-top: 20px;
-	padding: 1em;
+	margin-top: 10px;
+	padding: 0.5em;
 	border-radius: 20px;
 	width: 300px;
-	margin-left: 4em;
-	transition:all 600ms;
-	margin-bottom: 2em;
-	align-items: center;
+	margin-left: 1.8em;
+	transition:all 600ms
 }
-.cont1:hover{
-	background-color: #292929;
-}
-
 a.ln{
 	margin: 1em;
 	color: white;
@@ -472,46 +335,43 @@ a.ln{
 	font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 4em;
+    margin-right: 0.3em;
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 35pt;
+	background-color: #686868;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
+	margin-top: 1em;
+	text-align: center;
 }
-.nev3:hover {
-		background-color: #4E4E4F;
-}
-
-
-
 .nev4 {
 	 font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 4em;
+    margin-right: 0.3em;
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 35pt;
+	background-color: #686868;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
+	margin-top: 1em;
 }
-.nev4:hover {
-		background-color: #4E4E4F;
-}
+
 .Footer {
 	text-align: center;
 	font-family: space mono;
-	font-size: 30pt;
+	font-size: 50pt;
 	font-weight: bold;
 	color: white;
 	background-color: #0D0D0D;
-	margin-top: 5em;
+	margin-top: 0em;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 .freespace {
 	height: 300px;
 	background-color: transparent;
-	display: inline-flex;
+	display: none;
 }
 .upbody {
 	display: flex;
@@ -529,5 +389,3 @@ a:visited {
 a:hover {
 	text-decoration: none;
 }
-	
-}*/

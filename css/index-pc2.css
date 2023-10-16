@@ -1,6 +1,6 @@
-/*@media screen and (min-width: 1200px)
+@media screen and (min-width: 1200px)
 {
-html {zoom: 80%;}
+/*html {zoom: 80%;}*/
 body {
 	background-image:url(https://raw.githubusercontent.com/Phattharaphum/MyCSTUPassport-6609612160/main/image/bg01.jpg);
 	width: 100%;
@@ -145,6 +145,7 @@ p.mnn3 {
 	position:sticky;
 	margin-left: 25em;
 	border-radius: 50px;
+	/*box-shadow: 10px 10px 20px 1px black*/
 	box-shadow: 8px 8px 5px 0px #252422;
 }
 h2 {
@@ -210,11 +211,14 @@ div.maininfo1 {
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 20pt;
+	/*background-image: linear-gradient(#4D5F6C,#273745);*/
 	background-color : #252422; 
 	margin-left: 80px;
 	padding: 10px 20px 5px 20px;
 	border-radius: 40px;
 	color: white;
+	/*box-shadow:0px 0px 20px 3px rgba(0, 0, 0, 0.5);*/
+	/*box-shadow: 20px 20px 2px 0px #111E2B;*/
 	width: 450px;
 	transition:all 400ms ease-in-out ;
 } 
@@ -233,10 +237,13 @@ div.maininfo2 {
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 20pt;
+	/*background-image: linear-gradient(#4D5F6C,#273745); */
 	background-color: #252422;
 	padding: 10px 20px 5px 20px;
 	border-radius: 40px;
 	color: white;
+	/*box-shadow:12px 12px 20px 1px rgba(0, 0, 0, 0.7);
+	box-shadow: 20px 20px 2px 0px #111E2B;*/
 	width: 450px;
 	margin-left: 4px;
 	width: 730px;
@@ -324,6 +331,7 @@ div.maininfo2 {
 	top:100px;
 	left: 600px;
 	transition:transform 400ms ease-in-out;
+	/*box-shadow:8px 8px 5px 1px rgba(0, 0, 0, 0.4);*/
 	box-shadow: 7px 7px 2px 0px #0E0E0E;
 	border-radius: 40px;
 }
@@ -371,6 +379,7 @@ div.maininfo3 {
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 20pt;
+	/*background-image: linear-gradient(#4D5F6C,#273745);*/
 	background-color: #252422;
 	padding: 20px 0px 5px 30px;
 	border-radius: 60px;
@@ -530,4 +539,4 @@ a:hover {
 	text-decoration: none;
 }
 	
-}*/
+}
