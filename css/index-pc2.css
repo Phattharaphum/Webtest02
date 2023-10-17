@@ -1,4 +1,4 @@
-@media (min-width:1200px)
+@media (min-width:1500px)
 {
 /*html {zoom: 80%;}*/
 body {
@@ -49,7 +49,7 @@ div.mhead {
 div.nev1 {
     color:white ;
     align-self: baseline;
-    margin-left: 20em;
+    margin-left: 30em;
     margin-top: 4em;
 }
 a.nev2 {
@@ -481,7 +481,7 @@ a.ln{
 	font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 4em;
+    margin-right: 2em;
     font-weight: bold;
     font-size: 20pt;
 	border-radius: 10px;
@@ -497,7 +497,7 @@ a.ln{
 	 font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 4em;
+    margin-right: 2em;
     font-weight: bold;
     font-size: 20pt;
 	border-radius: 10px;
