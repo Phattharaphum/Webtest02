@@ -1,12 +1,31 @@
-@media (min-width:1200px)
-{
 body {
 	width: 100%;
 	height: 100%;
 	margin-top: 0;
-	background-image: url("imgvdo/bg01.jpg");
+	background-color: #0E0E0E;
+}
+.sbody {
+    margin: auto;
+	height: 100%;
+}
+div.mainbd {
+	display: inline-flex;
+	flex-direction: column;
+	background-color: #111111;
+	margin: auto;
+	width: 100%;
 	background-attachment: fixed;
-	background-size: contain;
+}
+div.tophead {
+    display: flex;
+}
+div.W1 {
+	display: inline-flex;
+	flex-direction: column;
+	width: 100%;
+	background-image: url("imgvdo/bg02blur.jpg");
+	background-attachment:fixed;
+	background-size:contain;	
 }
 div.mhead {
     background-color: #242424;
@@ -14,37 +33,81 @@ div.mhead {
     padding: 15px;
     border-radius: 0 0 2em 2em;
     margin: 0 0 2em 2em;
-	transform: scale(1.4);
+	transform: scale(1.6);
 	position: relative;
-	margin-left: 3em;
-	margin-top: 4em;		
+	margin-left: 5em;
+	margin-top: 5em;			
 }
 div.nev1 {
-	flex-direction: row;
+	display: flex;
+	flex-direction: column;
     color:white ;
     align-self: baseline;
-    margin-left: 10em;
+    margin-left: 30em;
     margin-top: 2em;
-}
-div.W1 {
-	display: inline-flex;
-	flex-direction: column;
-	width: 100%;
-	background-image: url("imgvdo/bg01blur.jpg");
-	background-attachment:fixed;
-	background-size:contain;	
 }
 a.nev2 {
     font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 3em;
+    margin-right: 0.3em;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 35pt;
 	background-color: #262626;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
-	margin-top: 0.2em;
+	margin-top: 1em;
+	text-align: center;
+}
+div.s1head {
+    display:inline-flex;
+    flex-direction: column;
+    margin: 0;
+}
+div.s2head {
+    display:inline-flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-left: 1em;
+}
+p.my {
+    font-family: space mono;
+    font-size: 30pt;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: auto ;
+	background-color: #252422;
+}
+p.cstu {
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    font-family: space mono;
+    font-size: 30pt;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    background-color: #444444;
+    border-radius: 20px;
+    
+}
+p.passp {
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+    font-family: space mono;
+    font-size: 18pt;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
+div.tmn {
+	display: inline-flex;
+	margin: 0;
+	flex-direction: row;
+	width: 100%;
+	padding-top: 5em;
+	padding-bottom: 5em;
+	
 }
 div.mn {
 	display:inline-flex;
@@ -55,14 +118,14 @@ div.mn {
 p.mnn {
 	color: white;
 	font-family: Bebas Neue;
-	font-size: 220pt;
+	font-size: 240pt;
 	margin: 0;
 	margin-left: 70px
 }
 p.mnn2 {
 	color: white;
 	font-family: Bebas Neue;
-	font-size: 60pt;
+	font-size: 70pt;
 	margin: 0;
 	margin-left: 80px
 }
@@ -76,7 +139,7 @@ p.mnn3 {
 .img1 {
 	height: 600px;
 	position:sticky;
-	margin-left: 20em;
+	margin-left: 3em;
 	margin-top: 60px;
 	border-radius: 40px;
 	box-shadow: 8px 8px 40px 0px #252422;
@@ -101,16 +164,16 @@ h2.h2s {
 	display: inline-flex;
 	padding: 30px 10px 30px 10px;
 	margin: auto;
-	margin-left: 0.8em;
 	border-radius: 25px;
 	color:#252422;
+	margin-left: 1em;
 }
 strong{
 	font-weight: 700;
 	background-color: #CDD1D0;
 	color:#252422;
 	font-family: Kanit;
-	font-size: 30pt;
+	font-size: 40pt;
 	border-radius: 10px;
 	padding: 0px 5px 0px 5px;
 	
@@ -119,7 +182,7 @@ div.mnf1{
 	padding-top: 2em;
 	padding-bottom: 2em;
 	background-color: #191919;
-	width: 1500px;
+	width: 1200px;
 }
 div.mnf2{
 	margin-top: 2em;
@@ -130,26 +193,16 @@ div.mnf3{
 	margin-top: 5em;
 	background-color: #191919;
 }
-div.mn2f4{
-	margin-top: 2em;
-	display: flex;
-	flex-direction: row;
-	
-	
-}
 div.maininfo1 {
 	display: inline-flex;
-	font-size: 30pt;
+	font-size: 40pt;
 	font-family: Kanit;
 	line-height: 30pt;
 	margin-left: 1em;
 	padding: 10px 20px 5px 20px;
-	border-radius: 20px;
 	color: white;
 	width: 800px;
-	transition:all 400ms ease-in-out ;
 } 
-
 p {
 	margin: 1em;
 }
@@ -165,12 +218,10 @@ div.maininfo2 {
 	padding: 10px 20px 5px 20px;
 	border-radius: 40px;
 	color: white;
-	width: 450px;
-	margin-left: 1em;
-	width: 1100px;
+	margin-left: 0.2em;
+	width: 1150px;
 	height: 1400px
 }
-	
 p.bb1 {
 	font-weight: 500;
 	font-family: Kanit;
@@ -178,7 +229,7 @@ p.bb1 {
 	border-radius: 5px;
 	padding: 15px 10px 15px 10px;
 	color: white;
-	margin-left: 0.5em;
+	margin-left: 2em;
 	width: 1000px;
 	
 	
@@ -205,16 +256,15 @@ div.maininfo3 {
 	width: 700px;
 	transition:all 400ms ease-in-out ;
 } 
-
 p.bb4 {
 	font-weight: 500;
 	background-color: #212121;
 	font-family: Kanit;
-	font-size: 30pt;
+	font-size: 40pt;
 	border-radius: 20px;
 	padding: 20px 10px 20px 10px;
 	color: white;
-	margin-left: 0.5em;
+	margin-left: 1.2em;
 	width: 900px;
 	display: inline-flex;
 	
@@ -241,11 +291,13 @@ div.maininfo4 {
 	color: white;
 	width: 450px;
 	margin-left: 1em;
+	width: 450px;
+	height: 800px;
 	justify-content: center;
 }
 div.maininfo5 {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	font-size: 20pt;
 	font-family: Kanit;
 	line-height: 1pt;
@@ -253,18 +305,27 @@ div.maininfo5 {
 	border-radius: 0px;
 	color: white;
 	width: 100%;
-	height: 150px;
-	
+	height: 150px;	
 }
 .vid1 {
-	margin-top: -3em;
+	margin-top: -2em;
 	margin-left: 23em;
 	border-radius: 15px;
-	margin-bottom: 2em
 	
 }
 .pic2 {
 	height: 50px;
+}
+.cont1 {
+	display: inline-flex;
+	flex-direction: row;
+	background-color: #111111;
+	margin-top: 10px;
+	padding: 0.5em;
+	border-radius: 20px;
+	width: 300px;
+	margin-left: 1.8em;
+	transition:all 600ms
 }
 a.ln{
 	margin: 1em;
@@ -274,41 +335,57 @@ a.ln{
 	font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 3em;
+    margin-right: 0.3em;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 35pt;
 	background-color: #686868;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
-	margin-top: 0.2em;
+	margin-top: 1em;
+	text-align: center;
 }
 .nev4 {
 	 font-family:space mono ;
 	font-weight:700;
     color: white;
-    margin-right: 0.1em;
+    margin-right: 0.3em;
     font-weight: bold;
-    font-size: 30pt;
+    font-size: 35pt;
 	background-color: #686868;
 	border-radius: 10px;
 	padding: 6px 25px 6px 25px;
+	margin-top: 1em;
+}
+
+.Footer {
 	text-align: center;
-	margin-top: 0.2em;
+	font-family: space mono;
+	font-size: 50pt;
+	font-weight: bold;
+	color: white;
+	background-color: #0D0D0D;
+	margin-top: 0em;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .freespace {
 	height: 300px;
 	background-color: transparent;
 	display: none;
-	
 }
 .upbody {
 	display: flex;
 	margin: 0 0 0 0;
 	flex-direction: column;
 }
-.info5 {
-	display: flex;
-	flex-direction: row;
+a:link {
+	text-decoration: none;
 }
-}	
-	
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
