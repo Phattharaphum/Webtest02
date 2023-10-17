@@ -1,5 +1,6 @@
 @media (min-width:768px)
 {
+html {zoom: 60%;}
 div.mhead {
     background-color: #242424;
     display:inline-flex;
